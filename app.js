@@ -187,8 +187,16 @@
 //***************************************
 // Functions at 54:26
 //***************************************
-
 // / FUNCTIONS
+// function addNums(num1, num2){
+//     console.log(num1 + num2);
+// }
+// addNums(5, 4);
+// function addNums(num1 = 1, num2 = 1){
+//     return num1 + num2;
+//     //console.log(num1 + num2);
+// }
+// console.log(addNums());
 // function greet(greeting = 'Hello', name) {
 //   if(!name) {
 //     // console.log(greeting);
@@ -198,12 +206,11 @@
 //     return `${greeting} ${name}`;
 //   }
 // }
-
-
 // // ARROW FUNCTIONS
 // const greet = (greeting = 'Hello', name = 'There') => `${greeting} ${name}`;
 // console.log(greet('Hi'));
-
+// const addNums(num1 = 1, num2 = 1) => num1 + num2;
+// console.log(addNums(5, 5));
 
 // // OOP
 
